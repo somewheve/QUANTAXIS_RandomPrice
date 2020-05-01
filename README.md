@@ -3,7 +3,6 @@
 
 基于OU过程的TICK price模拟
 
-
 pip install quantaxis-randomprice
 
 
@@ -23,4 +22,10 @@ qarandom
 --theta 0.15 
 
 --dt 1e-2
+
+--format "future_tick"
 ```
+
+### TODO
+更新生成 指定周期bar/tick
+同时加上格式化输出
